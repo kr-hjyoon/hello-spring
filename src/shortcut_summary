@@ -1,0 +1,5 @@
+
+ 리팩토링: shift+f6
+ 테스트케이스 자동 생성 : ctrl+shift + T
+ 리턴값 자동 생성 ctrl + alt+ V
+ 리팩토링 : 메서드 추출 ctrl+alt+M
