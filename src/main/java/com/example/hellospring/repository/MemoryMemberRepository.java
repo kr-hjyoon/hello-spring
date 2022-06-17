@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository             // 스프링 컨테이너에 구동시 등록
+//@Repository             // 스프링 컨테이너에 구동시 등록
 public class MemoryMemberRepository implements  MemberRepository{
 
     public static Map<Long,Member>  store = new HashMap<>();  // 실무에서는 Concurrent HashMap
