@@ -3,20 +3,23 @@ package com.example.hellospring.service;
 import com.example.hellospring.domain.Member;
 import com.example.hellospring.repository.MemberRepository;
 import com.example.hellospring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service                        // 스프링 컨테이너로 부터  MemberService 를  구동시 등록하도록 해줌
 public class MemberService {
         private final MemberRepository memberRepository ;
 
+        @Autowired
         public MemberService(MemberRepository memberRepository) {
                 this.memberRepository = memberRepository;
         }
 
         /**
          * 회원가입
-         * @param member
          * @return long  , 생성된  member id 반환
          */
         public long join (Member member){
@@ -34,7 +37,6 @@ public class MemberService {
 
         /**
          * 전체회원조회
-         * @return
          */
         public List<Member> findMembers(){
                 return memberRepository.findAll();
