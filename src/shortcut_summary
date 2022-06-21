@@ -3,7 +3,7 @@
 전체 파일 검색 : Ctrl + Shift + F
 find한 것 다음으로 넘기기 	F3
 
--
+- Ctrl + Alt + L : 자동 포맷팅
 - Alt + Insert : 생성자, Getter/Setter, toString과 같은 코드 생성, 클래스 생성 등
 - Ctrl + Shift + N : 파일명 검색
 - Ctrl +  N : 클래스명 검색
@@ -23,13 +23,11 @@ find한 것 다음으로 넘기기 	F3
 call depth ctrl + alt + h
 호출하는 곳 보기 ctrl + alt + F7
 
-
  리팩토링: shift+f6
  테스트케이스 자동 생성 : ctrl+shift + T
  리턴값 자동 생성 ctrl + alt+ V
  리팩토링 : 메서드 추출 ctrl+alt+M
  - 전체 import : Ctrl + Alt + O
-
 
 setting 창 열기	 	ctrl + alt + s
  Go to Implementation: Ctrl+Alt+Mouse Left click,  Ctrl + Alt + B
@@ -39,7 +37,6 @@ setting 창 열기	 	ctrl + alt + s
 
 Run shift + F10
 Run Debug Shift+F9
-
 
 
 Debug] 한스텝씩 진행F8
