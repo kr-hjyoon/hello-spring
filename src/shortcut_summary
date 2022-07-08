@@ -3,6 +3,8 @@
 전체 파일 검색 : Ctrl + Shift + F
 find한 것 다음으로 넘기기 	F3
 
+수직 블럭  : Ctrl(짧게) + Ctrl(길게)
+
 - Ctrl + Alt + L : 자동 포맷팅
 - Alt + Insert : 생성자, Getter/Setter, toString과 같은 코드 생성, 클래스 생성 등
 - Ctrl + Shift + N : 파일명 검색
