@@ -88,7 +88,11 @@
     *배민의 경우 60~70% 정도를 테스트 케이스 작성하는데 시간을 쓴다.
 
 ## Spring Data JPA
-  * JPA를 Spring에서 한번 감싸는 기술 
+  * JPA를 Spring에서 한번 감싸는 기술
+  * 꼭 JPA를 이해하고 사용하자 
+  * 인터페이스 이름만으로도 데이터를 가져올수 있다. 
+    * findByNamne
+    * findByEmail 
 
 ## 실무에서는 아래 기술이 조합되어서 쓰이기도 한다.
   * Spring Data JPA + QueryDSL
@@ -98,6 +102,9 @@
 ## AOP가 필요한 상황 
   * 공통 관심 사항
 
+## 실전 스프링부트와 JPA 1,2
+## 실전 스프링 Spring Data JPA
+## 실전 Query DSL
 
 
 
